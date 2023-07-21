@@ -73,7 +73,7 @@ SELECT * FROM employees where Name like '%MI%';
 
 --9. List employees whose name start with an _ (underscore) char.
 
-SELECT * FROM employees where Name like '_t%';
+SELECT * FROM employees where Name like '/_%';
 
 
 --10. List all employees joined between two given dates.
